@@ -27,7 +27,7 @@ void imporArray(int **array, int *quantity) {
     for (int i=0;i<*quantity;i++) {
         if ((*array)[i] == number) {
             found =1;
-            printf("%d",i);
+            printf("%d ",i);
         }
     }
     if (!found) {
