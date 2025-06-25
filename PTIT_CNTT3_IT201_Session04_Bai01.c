@@ -27,6 +27,7 @@ void imporArray(int **array, int *quantity) {
     for (int i =0; i<*quantity; i++) {
         if ((*array)[i] == number) {
             printf("vi tri cua so muon tim la %d",i);
+            return;
         }
     }
 
